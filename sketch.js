@@ -81,11 +81,8 @@ function classifyImage(image) {
   img = image;
 }
 
-function gotResult(error, results) {
-  if (error) {
-    console.error(error);
-    return;
-  }
+function gotResult( results) {
+
 
   label = results[0].label;
 }
